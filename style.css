@@ -1,0 +1,165 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.5;
+}
+
+/* Announcement Section */
+.announcement {
+  margin: 5rem 2.25rem 0rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.dot {
+  color: #5e7bff;
+}
+
+.title {
+  margin-top: 2rem;
+  font-size: 1.375rem;
+  font-weight: 300;
+  color: #969696;
+}
+
+.title strong {
+  font-weight: 700;
+  color: #15202a;
+}
+
+.subtitle {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #15202a;
+}
+
+/* Form Styling */
+.notify-form {
+  margin-top: 2rem;
+}
+
+.notify-form input {
+  width: 100%;
+  max-width: 282px;
+  padding: 0.75rem;
+  border: 1px solid #c2d3ff;
+  border-radius: 50px;
+  font-size: 1rem;
+  outline: none;
+}
+
+#email {
+  color: #15202a;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+#target {
+  margin-top: 0.15rem;
+  font-size: 0.7rem;
+  font-style: italic;
+}
+
+.notify-form button {
+  width: 100%;
+  max-width: 282px;
+  margin-top: 0.6rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 50px;
+  background-color: #5e7bff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.notify-form button:hover {
+  background-color: #4a65d7;
+}
+
+/* Dashboard Image */
+.dashboard {
+  margin: 4.5rem 1.7rem 7.5rem;
+}
+
+.dashboard img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Social Media Section */
+.social-media {
+  margin: 0rem 6.4rem 2.3rem;
+}
+
+.social-icons a {
+  margin: 0 0.78rem;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.copyright {
+  margin-top: 1.687rem;
+  font-size: 0.625rem;
+  font-weight: 300;
+  color: #969696;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .title {
+    font-size: 1.75rem;
+  }
+  .notify-form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .notify-form input {
+    flex: 1;
+    margin: 0;
+    width: 421px;
+  }
+
+  .notify-form button {
+    margin: 0;
+    flex-shrink: 0;
+    width: 200px;
+    height: 46px;
+  }
+  .dashboard img {
+    margin-top: 2rem;
+  }
+}
